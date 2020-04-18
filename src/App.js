@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Link, useHistory } from  "react-router-dom";
 import { Navbar, Nav, NavItem } from "react-bootstrap";
@@ -64,7 +63,7 @@ function App() {
         </Navbar.Collapse>
       </Navbar>
       <AppContext.Provider value={{ isAuthenticated, userHasAuthenticated}}>
-      <Routes />
+        <Routes />
       </AppContext.Provider>
     </div>
   );

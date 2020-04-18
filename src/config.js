@@ -5,7 +5,7 @@ export default {
   },
   apiGateway: {
     REGION: "us-east-1",
-    URL: "https://40yvgwfpp3.execute-api.us-east-1.amazonaws.com/dev/"
+    URL: "https://55wmn9h7g9.execute-api.us-east-1.amazonaws.com/dev"
   },
   cognito: {
     REGION: "us-east-1",

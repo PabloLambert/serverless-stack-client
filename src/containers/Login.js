@@ -56,7 +56,12 @@ export default function Login() {
             type="password"
           />
         </FormGroup>
-        <LoaderButton block bsSize="large" disable={!validateForm()} type="submit" isLoading={isLoading}>
+        <LoaderButton
+          block
+          type="submit"
+          bsSize="large"
+          isLoading={isLoading}
+          disabled={!validateForm()}>
           Login
         </LoaderButton>
       </form>
